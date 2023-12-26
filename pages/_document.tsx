@@ -16,10 +16,7 @@ export default function Document() {
   return (
     <Html lang="id">
       <Head nonce={nonce}>
-        <meta
-          name="description"
-          content="Redaksi EDTECH-ID | Majalah dan Surat Kabar Teknologi Pendidikan"
-        />
+        <meta name="description" content="PRAMUDAYU | Pramuka SMPN 2 Wonoayu" />
         <link rel="manifest" href="/manifest.webmanifest" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />

@@ -1,4 +1,4 @@
-import LogoLOFI from "assets/logo-lofi.svg";
+import LogoPramudayu from "assets/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -54,7 +54,12 @@ export default function FrontHeader({
         </div>
         <div className="items-center justify-center md:col-span-2">
           <Link href="/">
-            <Image src={LogoLOFI} alt="Logo LOFI" width={200} height={200} />
+            <Image
+              src={LogoPramudayu}
+              alt="Logo LOFI"
+              width={200}
+              height={200}
+            />
           </Link>
         </div>
         <div className="hidden items-center justify-between space-x-12 lg:flex">

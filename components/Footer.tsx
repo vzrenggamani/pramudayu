@@ -1,11 +1,11 @@
-import LogoLOFI from "assets/logo-lofi.svg";
+import Logo from "assets/logo.svg";
 import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="border border-t-2 border-gray-300">
       <div className="container mx-auto mb-8 mt-5 max-w-screen-xl px-4 pt-4">
         <div className="flex flex-col space-y-6">
-          <Image src={LogoLOFI} alt="Logo LOFI" width={200} height={200} />
+          <Image src={Logo} alt="Logo LOFI" width={200} height={200} />
           <div className="flex flex-col items-start justify-start">
             <p className="text-brandblue-700 font-bold">Pengelola Situs Web</p>
             <p>Rengga Prakoso Nugroho | DPTSI UM</p>
