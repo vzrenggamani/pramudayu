@@ -4,11 +4,11 @@ local_backend: true
 # github backend
 backend:
   name: github
-  repo: teknologi-pendidikan/universe
+  repo: vzrenggamani/pramudayu
   branch: main
 
-site_url: https://lofi.teknologipendidikan.or.id
-logo_url: https://lofi.teknologipendidikan.or.id/logo-lofi.svg
+site_url: http://pramuka2wonoayu.my.id
+logo_url: http://pramuka2wonoayu.my.id/logo-lofi.svg
 locale: id
 search: false
 

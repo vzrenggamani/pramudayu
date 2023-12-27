@@ -74,14 +74,14 @@ export default function Artikel({ frontmatter, content, slug }: Props) {
       {
         "@type": "Person",
         name: frontmatter.author,
-        url: `https://lofi.teknologipendidikan.or.id/${frontmatter.author}`,
+        url: `http://pramuka2wonoayu.my.id/${frontmatter.author}`,
       },
     ],
     publisher: {
       "@type": "Organization",
-      name: "Redaksi EDTECH-ID - Surat Kabar Teknologi Pendidikan",
-      legalName: "Komunitas Inovasi Teknologi Pembelajaran",
-      url: "http://lofi.teknologipendidikan.or.id",
+      name: "Portal Informasi Pramuka SMPN 2 Wonoayu",
+      legalName: "Portal Informasi Pramuka SMPN 2 Wonoayu",
+      url: "http://pramuka2wonoayu.my.id",
     },
     isAccessibleForFree: "true",
     articleBody: content,
@@ -89,10 +89,10 @@ export default function Artikel({ frontmatter, content, slug }: Props) {
   return (
     <div className="container mx-auto mb-8 mt-5 max-w-screen-xl px-4">
       <SEO
-        title={`${frontmatter.title} - Redaksi EDTECH-ID`}
+        title={`${frontmatter.title} - PRAMUDAYU`}
         description={frontmatter.description}
-        ogUrl={`https://lofi.teknologipendidikan.or.id/${slug}`}
-        ogImgUrl={`https://lofi.teknologipendidikan.or.id/${frontmatter.image}`}
+        ogUrl={`http://pramuka2wonoayu.my.id/${slug}`}
+        ogImgUrl={`http://pramuka2wonoayu.my.id/${frontmatter.image}`}
         ogImgAlt={frontmatter.title}
         ogType="article"
       />

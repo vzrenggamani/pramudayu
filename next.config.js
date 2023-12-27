@@ -45,7 +45,7 @@ const nextConfig = {
               "'self' webpack://* https: data: blob: http://localhost:8081/api/v1",
             'frame-src': "'none' ",
             'img-src':
-              "'self' blob: https://*.teknologipendidikan.or.id https://*.githubusercontent.com https://is3.cloudhost.id/teknologipendidikan/ https://drive.google.com https://*.googleusercontent.com https://www.netlify.com/img/",
+              "'self' blob: https://*.githubusercontent.com https://drive.google.com https://*.googleusercontent.com https://www.netlify.com/img/",
             'script-src':
               "'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com/gtag/js https://netlify-rum.netlify.app/ https://unpkg.com/netlify-cms@^2.10.17/dist/",
             'style-src': "'self' 'unsafe-inline'",

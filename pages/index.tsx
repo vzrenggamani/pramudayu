@@ -88,7 +88,7 @@ export default function Home({ posts }: Props) {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "Alumni Pramuka SMPN 2 Wonoayu",
-      email: "rengganugroho@teknologipendidikan.or.id",
+      email: "rengganugroho@um.ac.id",
     },
     sameAs: [
       "https://www.youtube.com/",

@@ -1,24 +1,24 @@
-import Head from 'next/head'
-const siteUrl = 'https://lofi.teknologipendidikan.or.id'
+import Head from "next/head";
+const siteUrl = "https://pramuka2wonoayu.my.id";
 
 // create types from props
 
 type SEOProps = {
-  title: string
-  description: string
-  ogImgUrl?: string
-  ogUrl: string
-  ogImgAlt?: string
-  ogType?: string
-}
+  title: string;
+  description: string;
+  ogImgUrl?: string;
+  ogUrl: string;
+  ogImgAlt?: string;
+  ogType?: string;
+};
 
 export default function SEO({
-  title = 'Redaksi EDTECH-ID - Surat Kabar Teknologi Pendidikan',
-  description = 'Redaksi EDTECH-ID - Surat Kabar Teknologi Pendidikan (dulu dikenal dengan nama Majalah LOFI TEP)',
+  title = "Portal Informasi Pramuka SMPN 2 Wonoayu",
+  description = "Portal Informasi Pramuka SMPN 2 Wonoayu",
   ogImgUrl = `${siteUrl}/opengraph-main.png`,
   ogUrl = `${siteUrl}/`,
-  ogImgAlt = 'Logo Redaksi EDTECH-ID dan Tagline Inovatif.Kreatif.Komunikatif.',
-  ogType = 'website',
+  ogImgAlt = "Portal Informasi Pramuka SMPN 2 Wonoayu",
+  ogType = "website",
 }: SEOProps) {
   return (
     <Head>
@@ -38,5 +38,5 @@ export default function SEO({
       <meta key="twtcreator" name="twitter:creator" content="@haloedtechid" />
       <meta key="twtsite" name="twitter:site" content="@haloedtechid" />
     </Head>
-  )
+  );
 }
